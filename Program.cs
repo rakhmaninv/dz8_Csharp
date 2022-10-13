@@ -1,6 +1,6 @@
 ﻿while (true)
 {
-    Console.Write("Type task number(54, 56, 58 or 62): ");
+    Console.Write("Type task number(54, 56 or 58): ");
     string task = Console.ReadLine() ?? "0";
     if (task == "54") 
     {
@@ -156,7 +156,7 @@ int FindLowestSumOfRowElements(int[,] array)
         }
     }
     return rowNumber;
-}
+} 
 int[,] MatrixMultiplication(int[,] a, int[,] b)
 {
     
